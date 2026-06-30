@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://flowline.se"),
   title: {
-    default: "Flowline Sverige AB",
+    default: "Flowline Sverige AB | VA- och VVS-konsult",
     template: "%s | Flowline Sverige AB",
   },
   description:
-    "Flowline Sverige AB skapar tydliga digitala floden for verksamheter som vill arbeta smartare, snabbare och mer hallbart.",
+    "Flowline Sverige AB är konsult inom VA, VVS och fastigheter med stöd inom utredning, projektering, teknisk rådgivning och beställarstöd.",
   applicationName: "Flowline Sverige AB",
   authors: [{ name: "Flowline Sverige AB" }],
   creator: "Flowline Sverige AB",
@@ -27,25 +27,27 @@ export const metadata: Metadata = {
   keywords: [
     "Flowline",
     "Flowline Sverige AB",
-    "digitala floden",
-    "verksamhetsutveckling",
-    "processutveckling",
+    "VA konsult",
+    "VVS konsult",
+    "fastighetskonsult",
+    "teknisk rådgivning",
+    "projektering",
     "Sverige",
   ],
   openGraph: {
-    title: "Flowline Sverige AB",
+    title: "Flowline Sverige AB | VA- och VVS-konsult",
     description:
-      "Digital struktur, smartare arbetsfloden och robusta system for vaxande verksamheter.",
+      "Teknisk rådgivning, utredning och projekteringsstöd inom VA, VVS och fastigheter.",
     url: "https://flowline.se",
     siteName: "Flowline Sverige AB",
     locale: "sv_SE",
     type: "website",
     images: [
       {
-        url: "/flowline-hero.png",
-        width: 1536,
-        height: 1024,
-        alt: "Abstrakt visualisering av samordnade digitala arbetsfloden.",
+        url: "/flowline-live-hero.webp",
+        width: 2000,
+        height: 917,
+        alt: "Flowline arbetar med VA, VVS och fastigheter.",
       },
     ],
   },
@@ -53,8 +55,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Flowline Sverige AB",
     description:
-      "Digital struktur, smartare arbetsfloden och robusta system for vaxande verksamheter.",
-    images: ["/flowline-hero.png"],
+      "Teknisk rådgivning, utredning och projekteringsstöd inom VA, VVS och fastigheter.",
+    images: ["/flowline-live-hero.webp"],
   },
   robots: {
     index: true,
